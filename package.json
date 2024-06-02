@@ -7,6 +7,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "build:web": "expo build:web",
+    "deploy": "netlify deploy --dir web-build",
     "test": "jest --watchAll",
     "lint": "expo lint"
   },
